@@ -19,4 +19,5 @@ from views import *
 
 urlpatterns = [
     path('', index, name='index'),
+    path('add_staff', add_staff, name='add_staff'),
 ]

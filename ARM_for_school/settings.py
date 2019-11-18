@@ -54,7 +54,7 @@ ROOT_URLCONF = 'ARM_for_school.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'ARM_app/../templates')]
+        'DIRS': [os.path.join(BASE_DIR, 'templates')]
         ,
         'APP_DIRS': True,
         'OPTIONS': {
@@ -85,8 +85,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'ARM_for_school',
-        'USER': 'root',
-        'PASSWORD': '5',
+        'USER': 'apex',
+        'PASSWORD': '5249852498',
         'HOST': 'localhost',
         'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
     }
